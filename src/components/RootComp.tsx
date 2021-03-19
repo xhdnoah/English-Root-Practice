@@ -32,7 +32,7 @@ const RootComp: React.FC = () => {
     return () => {
       window.removeEventListener('keydown', onKeydown)
     }
-  }, [showExample, setIsPlayed, setRoot])
+  }, [showExample])
 
   useEffect(() => {
     const onKeydown = (e: KeyboardEvent) => {

@@ -1,0 +1,70 @@
+[
+  {
+    "root": "a",
+    "definition": "一【前缀】用于加强语气,不【后缀】表示抽象名词",
+    "examples": "atom（n 原子(a不+tom=不能在切割的小东西=原子)）",
+    "newExamples": [
+      "anatomy n 解剖学(ana 分开+tom+y=分开切=解剖)★10404",
+      "catholicism n 天主教(catholic 天主教徒)★10980",
+      "alcoholism n 酒精中毒症(alcohol 酒精)11669",
+      "atom n 原子(a 不+tom=不能在切割的小东西=原子)★★12177",
+      "atom n 原子(a 不+tom=不能在切割的小东西=原子)★★12177",
+      "idealism n 唯心主义(ideal 理想)★14652",
+      "materialism n 唯物主义(material 物质)★16886",
+      "humanism n 人性(human 人)★20377",
+      "cannibalism n 同类相食(cannibal 原指加勒比土著,为一食人族)22453",
+      "magnetism n 磁学,磁性(magnet 磁铁)26256",
+      "plagiarism n 剽窃(plagiar 斜的+ism…做不正当事…剽窃)26772",
+      "atheism n 无神论(a 无+the 神+ism)27817",
+      "fanaticism n 狂热盲信(fanatic 狂热者)28760",
+      "barbarism n 野蛮状态(barbar 原形容野人说话方式)32219",
+      "fatalism n 宿命论(fatal 致命的)33337",
+      "escapism n 逃难现实(escape 逃难)43155",
+      "asceticism n 禁欲主义(ascetic 禁欲)44153",
+      "rheumatism n 风湿病(rheumat 稀黏液+ism )54068",
+      "astigmatism n 散光(a 无+stigmat 斑点+ism…看不见斑点…散光)57851",
+      "atavism n 隔代遗传(atav 祖先+ism)98256",
+      "pedagogism n 教学法(ped 儿童+agog 引导+ism)",
+      "gigantism n 巨大畸形(gigant 巨人)",
+      "daltonism n 先天性色盲(dalton 道尔顿,研究色盲的英国化学家 物理学家)",
+      "albinism n 白化病(albin 白色+ism )",
+      "brutalism n 兽性(brutal 野兽的)",
+      "absurdism n 荒唐性(absurd 荒唐的+ism)"
+    ]
+  },
+  {
+    "root": "ab",
+    "definition": "prep. 从, 自【前缀】 表示“偏离，脱离或离开”之义",
+    "examples": "abuse（滥用(ab+use用=用坏=滥用)）",
+    "newExamples": [
+      "abuse 滥用(ab+use 用=用坏=滥用)  ★★★★    1569  ",
+      "abuse 滥用(ab+use 用=用坏=滥用)  ★★★★    1569  ",
+      "abstract 抽象的,心不在焉的(abs+tract 拉=被拉开=心不在焉)★★    4371  ",
+      "absent 缺席的(ab+sent 出现=没有出现=缺席的)★★    6471  ",
+      "absorb 吸收(ab+sorb 吸收=吸收掉)★★    8281  ",
+      "abnormal 反常的(ab+normal 正常的)★10289",
+      "abstinence 节制,禁欲(abs+tin 拿住+ense=不在拿住=戒除,禁欲)★13204",
+      "abject 可怜的(ab+ject 抛=抛掉=可怜的)★24033",
+      "abstain 戒绝(abs+tain 拿住=不再拿住=戒绝)★32951",
+      "abduct 诱拐(ab+duct 引导=引走=诱拐)71003",
+      "abscond 潜逃(abs+cond 藏=藏起来=潜逃)",
+      "abscind 废除(abs+cind 剪切=切掉=废除)",
+      "abscise 切除(abs+cise 剪=剪掉=切除)"
+    ]
+  },
+  {
+    "root": "ability",
+    "definition": "/ E5biliti/  n.能力；才能【后缀】表示抽象名词",
+    "examples": "probability(n.可能性；概率)",
+    "newExamples": [
+      "probability n 可能性(probable+ility)★    6331  ",
+      "probability n 可能性(probable+ility)★    6331  "
+    ]
+  },
+  {
+    "root": "able",
+    "definition": "/ 5eibl/  能【后缀】表性质、大小状况、状貌",
+    "examples": "indispensable(a.必不可少的，必需的)",
+    "newExamples": []
+  }
+]

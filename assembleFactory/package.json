@@ -1,0 +1,17 @@
+{
+  "name": "assemblefactory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-word": "^1.1.0",
+    "js-mdict": "^4.0.5",
+    "lodash": "^4.17.21",
+    "natural": "^4.0.2"
+  }
+}

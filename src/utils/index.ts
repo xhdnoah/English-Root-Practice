@@ -21,3 +21,26 @@ export const searchForRoot = (word: string, root: string): number[] => {
   }
   return [indexOfRoot, indexOfRoot + root.length]
 }
+
+export const stripHTMLTag = (str: string): string => {
+  return str.replace(/(<([^>]+)>)/gi, "")
+}
+
+export interface IExampleData {
+  example: string,
+  frequency: number
+}
+
+export const popTheLastNumber = (str: string): IExampleData => {
+  const matchNumber = str.match(/\d+/)
+  if (matchNumber == null) {
+    return {
+      example: str,
+      frequency: Infinity
+    }
+  }
+  return {
+    example: str.replace(/[0-9]/g, ''),
+    frequency: parseInt(matchNumber.pop()!)
+  }
+}
