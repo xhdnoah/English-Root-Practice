@@ -1,4 +1,4 @@
-
+"use strict";
 exports.__esModule = true;
 exports.popTheLastNumber = exports.stripHTMLTag = exports.searchForRoot = exports.splitWord = exports.isLegal = void 0;
 var isLegal = function (val) { return /^[a-z_A-Z_._(_)_0-9'!,'?-]$/.test(val); };
@@ -35,8 +35,7 @@ var popTheLastNumber = function (str) {
         };
     }
     return {
-        // example: str.replace(/[0-9]/g, ''),
-        example: str,
+        example: str.replace(/[0-9★]/g, '').trim(),
         frequency: parseInt(matchNumber.pop())
     };
 };

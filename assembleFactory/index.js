@@ -1,4 +1,4 @@
-
+"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -32,7 +32,7 @@ var newRootList = rootList.map(function (rootData) {
         var exampleWord = example.split(/,|\s/)[0].trim();
         if (exampleWord.includes(root) &&
             !newStemmers.includes(stemmer.stem(exampleWord))
-        && englishWord.check(exampleWord)
+        // && englishWord.check(exampleWord)
         ) {
             var exampleData = index_1.popTheLastNumber(example);
             newStemmers.push(stemmer.stem(exampleWord));
@@ -46,8 +46,8 @@ var newRootList = rootList.map(function (rootData) {
                         break;
                     }
                 }
+                exampleDatas.splice(index, 0, exampleData);
             }
-            exampleDatas.splice(index, 0, exampleData);
         }
     });
     var newExamples = exampleDatas.map(function (exampleData) {

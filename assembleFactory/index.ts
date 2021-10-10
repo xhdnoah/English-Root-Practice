@@ -33,14 +33,14 @@ const newRootList = rootList.map((rootData) => {
       if (exampleDatas.length === 0) {
         exampleDatas.push(exampleData)
       } else {
-        for (let i = 0; i <= exampleDatas.length; i++) {
+        for (let i = 0; i < exampleDatas.length; i++) {
           if (exampleDatas[i].frequency > exampleData.frequency) {
             index = i
             break;
           }
         }
+        exampleDatas.splice(index,0, exampleData)
       }
-      exampleDatas.splice(index,0, exampleData)
     }
   })
 

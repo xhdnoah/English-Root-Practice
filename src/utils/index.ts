@@ -40,7 +40,7 @@ export const popTheLastNumber = (str: string): IExampleData => {
     }
   }
   return {
-    example: str.replace(/[0-9]/g, ''),
+    example: str.replace(/[0-9★]/g, '').trim(),
     frequency: parseInt(matchNumber.pop()!)
   }
 }
